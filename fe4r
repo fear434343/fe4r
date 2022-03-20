@@ -1,0 +1,10 @@
+_G.Fe4r = true
+while wait() do 
+ if _G.Fe4r == false then
+     return
+end
+if _G.Fe4r == true then
+      game:GetService("ReplicatedStorage").Remotes.DoubleKick:FireServer()
+      game:GetService("ReplicatedStorage").Remotes.DoubleKick:FireServer()
+end
+end
